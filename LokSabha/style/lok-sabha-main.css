@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header-bar {
+    color: green;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+#header-1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+h3 {
+    text-align: center;
+    background-color: rgb(46, 179, 53);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+
+li {
+    text-align: center;
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+
+
+h3:nth-child(odd) {
+    background-color: goldenrod;
+}
+
+
+h3:nth-child(even) {
+    background-color: purple;
+}
+
+
+#body-content-div {
+    margin-top: 40px;
+}
