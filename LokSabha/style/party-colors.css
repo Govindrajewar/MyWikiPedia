@@ -14,6 +14,8 @@
     --aimim-party-color     : #0c6b4b;
     --ics-party-color       : #00FF00;
     --jp-party-color        : #1F75FE;
+    --psp-party-color        : #F15270;
+    --sp-party-color :#FF2222;
 }
 
 
@@ -72,4 +74,12 @@
 
 .party-color-jp{
     background-color: var(--jp-party-color);
+}
+
+.party-color-psp{
+    background-color: var(--psp-party-color);
+}
+
+.party-color-sp{
+    background-color: var(--sp-party-color);
 }
