@@ -4,6 +4,7 @@
     flex-direction: column;
 }
 
+
 #header-bar {
     color: green;
     background-color: white;
@@ -38,8 +39,6 @@ li {
 }
 
 
-
-
 h3:nth-child(odd) {
     background-color: goldenrod;
 }
@@ -52,4 +51,15 @@ h3:nth-child(even) {
 
 #body-content-div {
     margin-top: 40px;
+}
+
+
+/* Anchor Tag Styling */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
 }

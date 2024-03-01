@@ -55,3 +55,14 @@ footer{
     justify-content:left;
     gap: 15px;
 }
+
+
+/* Anchor Tag */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
