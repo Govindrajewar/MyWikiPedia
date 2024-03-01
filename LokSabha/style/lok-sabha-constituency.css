@@ -1,0 +1,68 @@
+body{
+    background-color: #cff4fc;
+}
+
+
+/* table styling */
+table, tr, th, td{
+    padding: 10px;
+    background-color: #9eeaf9;
+    text-align: left;
+}
+
+.table-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* h2 styling */
+h2{
+    margin-top:30px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+.election-winner{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(44, 107, 171);
+}
+
+
+/* result styling */
+.majority-turnout{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/* copyright panel */
+footer{
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.instructions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.followMe{
+    display: flex;
+    justify-content:left;
+    gap: 15px;
+}
+
+
+/* Anchor Tag */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
