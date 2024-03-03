@@ -6,9 +6,11 @@
     --bjp-party-color       : #F37020;
     --inc-party-color       : #19AAED;
     --ics-party-color       : #00FF00;
-    --cpi-party-color       : red;
+    --cpi-party-color       : #e70d21;
+    --cpim-party-color      : #FF1D15;
     --jd-party-color        : green;
     --jp-party-color        : #1F75FE;
+    --ssp-party-color        : #33CC00;
 
 
     /* Maharashtra State Party */
@@ -23,7 +25,7 @@
     --swp-party-color       : #D06767;
     --pwp-party-color       : #e77373;
     --mns-party-color       : #5F2301;
-
+    --scf-party-color       : violet;
 
     /* Uttar Pradesh State Party */
     --sp-party-color        : #FF2222;
@@ -62,6 +64,15 @@
 
 .party-color-cpi{
     background-color: var(--cpi-party-color);
+}
+
+.party-color-cpim{
+    background-color: var(--cpim-party-color);
+}
+
+/* Samyukta Socialist Party */
+.party-color-ssp{
+    background-color: var(--ssp-party-color);
 }
 
 
@@ -112,6 +123,11 @@
 
 .party-color-mns{
     background-color: var(--mns-party-color);
+}
+
+/* Scheduled Castes Federation */
+.party-color-scf{
+    background-color: var(--scf-party-color);
 }
 
 /* Uttar Pradesh State Party */
