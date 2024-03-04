@@ -10,7 +10,8 @@
     --cpim-party-color      : #FF1D15;
     --jd-party-color        : green;
     --jp-party-color        : #1F75FE;
-    --ssp-party-color        : #33CC00;
+    --ssp-party-color       : #33CC00;
+    --aifb-party-color      : #ac1313;
 
 
     /* Maharashtra State Party */
@@ -18,7 +19,7 @@
     --ncp-party-color       : #00B2B2;
     --ss-party-color        : orangered;
     --ssubt-party-color     : rgb(253, 143, 104);
-    --vba-party-color       : blue;
+    --vba-party-color       : #0000FF;
     --rpi-party-color       : #000066;
     --pjp-party-color       : #A51E25;
     --jss-party-color       : #EC0090;
@@ -26,6 +27,10 @@
     --pwp-party-color       : #e77373;
     --mns-party-color       : #5F2301;
     --scf-party-color       : violet;
+    --swf-party-color       : #D06767;
+    --rsp-party-color       : #FFFF00;
+    --bva-party-color       : #FEFF03;
+
 
     /* Uttar Pradesh State Party */
     --sp-party-color        : #FF2222;
@@ -74,6 +79,12 @@
 .party-color-ssp{
     background-color: var(--ssp-party-color);
 }
+
+/* All India Forward Bloc */
+.party-color-aifb{
+    background-color: var(--aifb-party-color);
+}
+
 
 
 /* Maharashtra State Party */
@@ -129,6 +140,23 @@
 .party-color-scf{
     background-color: var(--scf-party-color);
 }
+
+/* Swabhimani Paksha */
+.party-color-swp{
+    background-color: var(--swp-party-color);
+}
+
+/* Rashtriya Samaj Paksha */
+.party-color-rsp{
+    background-color: var(--rsp-party-color);
+}
+
+/* Bahujan Vikas Aghadi */
+.party-color-bva{
+    background-color: var(--bva-party-color);
+}
+
+
 
 /* Uttar Pradesh State Party */
 .party-color-sp{
