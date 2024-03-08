@@ -5,6 +5,7 @@
     --ind-party-color       : #DCDCDC;
     --bjp-party-color       : #F37020;
     --inc-party-color       : #19AAED;
+    --inci-party-color      : #0EF4E1;
     --ics-party-color       : #00FF00;
     --cpi-party-color       : #e70d21;
     --cpim-party-color      : #FF1D15;
@@ -12,6 +13,8 @@
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
     --aifb-party-color      : #ac1313;
+    --swatantra-party-color : blue;
+    --socialist-party-color : #33CC00;
 
 
     /* Maharashtra State Party */
@@ -34,10 +37,17 @@
 
     /* Uttar Pradesh State Party */
     --sp-party-color        : #FF2222;
+    --bsp-party-color       : #22409A;
 
 
     /* Telangana State Party */
     --aimim-party-color     : #0c6b4b;
+
+
+    /* Andhra Pradesh State Party */
+    --ysrcp-party-color     : #1569C7;
+    --tdp-party-color       : #FFED00;
+    --jsp-party-color       : #ca420f;
 }
 
 
@@ -53,6 +63,10 @@
 
 .party-color-inc{
     background-color: var(--inc-party-color);
+}
+
+.party-color-inci{
+    background-color: var(--inci-party-color);
 }
 
 .party-color-ics{
@@ -83,6 +97,16 @@
 /* All India Forward Bloc */
 .party-color-aifb{
     background-color: var(--aifb-party-color);
+}
+
+/* Swatantra Party */
+.party-color-swatantra{
+    background-color: var(--swatantra-party-color);
+}
+
+/* Socialist Party */
+.party-color-socialist{
+    background-color: var(--socialist-party-color);
 }
 
 
@@ -167,5 +191,22 @@
 /* Telangana State Party */
 .party-color-aimim{
     background-color: var(--aimim-party-color);
+}
+
+
+/* Andhra Pradesh State Party */
+/* Yuvajana Sramika Rythu Congress Party */
+.party-color-ysrcp{
+    background-color: var(--ysrcp-party-color);
+}
+
+/* Telugu Desam Party */
+.party-color-tdp{
+    background-color: var(--tdp-party-color);
+}
+
+/* Jana Sena Party */
+.party-color-jsp{
+    background-color: var(--jsp-party-color);
 }
 
