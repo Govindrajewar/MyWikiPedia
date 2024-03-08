@@ -13,6 +13,8 @@
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
     --aifb-party-color      : #ac1313;
+    --swatantra-party-color : blue;
+    --socialist-party-color : #33CC00;
 
 
     /* Maharashtra State Party */
@@ -95,6 +97,16 @@
 /* All India Forward Bloc */
 .party-color-aifb{
     background-color: var(--aifb-party-color);
+}
+
+/* Swatantra Party */
+.party-color-swatantra{
+    background-color: var(--swatantra-party-color);
+}
+
+/* Socialist Party */
+.party-color-socialist{
+    background-color: var(--socialist-party-color);
 }
 
 

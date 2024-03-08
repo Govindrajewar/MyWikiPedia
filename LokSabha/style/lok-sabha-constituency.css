@@ -2,6 +2,10 @@ body{
     background-color: #cff4fc;
 }
 
+table{
+    width: 100%;
+}
+
 
 /* table styling */
 table, tr, th, td{
