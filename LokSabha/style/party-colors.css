@@ -6,7 +6,9 @@
     --bjp-party-color       : #F37020;
     --inc-party-color       : #19AAED;
     --inci-party-color      : #0EF4E1;
+    --incu-party-color      : #7777FF;
     --ics-party-color       : #00FF00;
+    --icsscs-party-color    : #000000;
     --cpi-party-color       : #e70d21;
     --cpim-party-color      : #FF1D15;
     --cpiml-party-color     : #C41301;
@@ -57,6 +59,20 @@
     --agp-party-color       : #2B3F7B;
     --bpf-party-color       : #FF6600;
     --uppl-party-color      : #FAED09;
+
+
+    /* Kerala State Party */
+    --cs-party-color        : #FF7F7F;
+    --iuml-party-color      : #006600;
+    --inl-party-color       : #006600;
+    --kmpp-party-color      : orange;
+    --ljd-party-color       : #2E8B57;
+    --rmpi-party-color      : #FF0000;
+    --nsc-party-color       : #EE0000;
+
+
+    /* Karnataka State Party */
+    --jds-party-color       : Green;
 }
 
 
@@ -78,8 +94,16 @@
     background-color: var(--inci-party-color);
 }
 
+.party-color-icsscs{
+    background-color: var(--icsscs-party-color);
+}
+
 .party-color-ics{
     background-color: var(--ics-party-color);
+}
+
+.party-color-incu{
+    background-color: var(--incu-party-color);
 }
 
 .party-color-jd{
@@ -250,4 +274,47 @@
 /* United People's Party Liberal  */
 .party-color-uppl{
     background-color: var(--uppl-party-color);
+}
+
+
+/* Kerala State Party */
+/* Congress (Secular) */
+.party-color-cs{
+    background-color: var(--cs-party-color);
+}
+
+/* Indian Union Muslim League */
+.party-color-iuml{
+    background-color: var(--iuml-party-color);
+}
+
+/* Indian National League */
+.party-color-inl{
+    background-color: var(--inl-party-color);
+}
+
+/* Kisan Mazdoor Praja Party */
+.party-color-kmpp{
+    background-color: var(--kmpp-party-color);
+}
+
+/* Loktantrik Janata Dal */
+.party-color-ljd{
+    background-color: var(--ljd-party-color);
+}
+
+/* Revolutionary Marxist Party of India */
+.party-color-rmpi{
+    background-color: var(--rmpi-party-color);
+}
+
+/* National Secular Conference */
+.party-color-nsc{
+    background-color: var(--nsc-party-color);
+}
+
+
+/* Karnataka State Party */
+.party-color-jds{
+    background-color: var(--jds-party-color);
 }
