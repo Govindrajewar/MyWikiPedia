@@ -9,6 +9,7 @@
     --ics-party-color       : #00FF00;
     --cpi-party-color       : #e70d21;
     --cpim-party-color      : #FF1D15;
+    --cpiml-party-color     : #C41301;
     --jd-party-color        : green;
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
@@ -48,6 +49,14 @@
     --ysrcp-party-color     : #1569C7;
     --tdp-party-color       : #FFED00;
     --jsp-party-color       : #ca420f;
+
+
+    /* Assam State Party */
+    --asdc-party-color      : #ff0000;
+    --aiudf-party-color     : #348017;
+    --agp-party-color       : #2B3F7B;
+    --bpf-party-color       : #FF6600;
+    --uppl-party-color      : #FAED09;
 }
 
 
@@ -87,6 +96,11 @@
 
 .party-color-cpim{
     background-color: var(--cpim-party-color);
+}
+
+/* Communist Party of India (Marxist-Leninist) Liberation */
+.party-color-cpiml{
+    background-color: var(--cpiml-party-color);
 }
 
 /* Samyukta Socialist Party */
@@ -210,3 +224,30 @@
     background-color: var(--jsp-party-color);
 }
 
+
+/* Assam State Party */
+/* Autonomous State Demand Committee */
+.party-color-asdc{
+    background-color: var(--asdc-party-color);
+}
+
+/* All India United Democratic Front */
+.party-color-aiudf{
+    background-color: var(--aiudf-party-color);
+}
+
+/* Asom Gana Parishad */
+.party-color-agp{
+    background-color: var(--agp-party-color);
+}
+
+/* Bodoland People's Front */
+.party-color-bpf{
+    background-color: var(--bpf-party-color);
+}
+
+
+/* United People's Party Liberal  */
+.party-color-uppl{
+    background-color: var(--uppl-party-color);
+}
