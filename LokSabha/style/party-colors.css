@@ -4,6 +4,7 @@
     /* National Party */
     --ind-party-color       : #DCDCDC;
     --bjp-party-color       : #F37020;
+    --bjs-party-color       : #FF9933;
     --inc-party-color       : #19AAED;
     --inci-party-color      : #0EF4E1;
     --incu-party-color      : #7777FF;
@@ -82,6 +83,16 @@
 
     /* Karnataka State Party */
     --jds-party-color       : Green;
+
+
+    /* Haryana State Party */
+    --jjp-party-color      : #026D37;
+    --ld-party-color       : #00FF66;
+    --hjc-party-color      : #FFFF00;
+    --inld-party-color     : #336600;
+    --hvp-party-color      : #CC00CC;
+    --jps-party-color      : #06038D;
+    --hlp-party-color      : #C4702A;
 }
 
 
@@ -93,6 +104,10 @@
 
 .party-color-bjp{
     background-color: var(--bjp-party-color);
+}
+
+.party-color-bjs{
+    background-color: var(--bjs-party-color);
 }
 
 .party-color-inc{
@@ -234,6 +249,10 @@
     background-color: var(--sp-party-color);
 }
 
+.party-color-bsp{
+    background-color: var(--bsp-party-color);
+}
+
 
 /* Telangana State Party */
 .party-color-aimim{
@@ -369,4 +388,40 @@
 }
 .party-color-dck{
     background-color: var(--dck-party-color);
+}
+
+
+/* Haryana State Party */
+.party-color-jjp{
+    background-color: var(--jjp-party-color);
+}
+
+/* Lok Dal */
+.party-color-ld{
+    background-color: var(--ld-party-color);
+}
+
+/* Janata Party (Secular) */
+.party-color-jps{
+    background-color: var(--jps-party-color);
+}
+
+/* Haryana Vikas Party */
+.party-color-hvp{
+    background-color: var(--hvp-party-color);
+}
+
+/* Indian National Lok Dal */
+.party-color-inld{
+    background-color: var(--inld-party-color);
+}
+
+/* Haryana Janhit Congress */
+.party-color-hjc{
+    background-color: var(--hjc-party-color);
+}
+
+/* Haryana Lokhit Party */
+.party-color-hlp{
+    background-color: var(--hlp-party-color);
 }
