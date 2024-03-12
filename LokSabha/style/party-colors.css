@@ -69,6 +69,15 @@
     --ljd-party-color       : #2E8B57;
     --rmpi-party-color      : #FF0000;
     --nsc-party-color       : #EE0000;
+    --rspkl-party-color     : #FF4A4A;
+    --ufl-party-color       : #EE0000;
+    --kc-party-color        : #CC6600;
+    --kcb-party-color       : #CC6600;
+    --kcj-party-color       : #CC6600;
+    --kcm-party-color       : #F48385;
+    --jkc-party-color       : #FF0000;
+    --nck-party-color       : #00B2B2;
+    --dck-party-color       : #00B2B2;
 
 
     /* Karnataka State Party */
@@ -317,4 +326,47 @@
 /* Karnataka State Party */
 .party-color-jds{
     background-color: var(--jds-party-color);
+}
+
+/* Revolutionary Socialist Party */
+.party-color-rsp-kl{
+    background-color: var(--rspkl-party-color);
+}
+
+/* United Front of Leftists */
+.party-color-ufl{
+    background-color: var(--ufl-party-color);
+}
+
+/* Kerala Congress */
+.party-color-kc{
+    background-color: var(--kc-party-color);
+}
+
+/* Kerala Congress (Mani) */
+.party-color-kcm{
+    background-color: var(--kcm-party-color);
+}
+
+/* Kerala Congress (B) */
+.party-color-kcb{
+    background-color: var(--kcb-party-color);
+}
+
+/* Kerala Congress (Jacob) */
+.party-color-kcj{
+    background-color: var(--kcj-party-color);
+}
+
+/* Janadhipathya Kerala Congress */
+.party-color-jkc{
+    background-color: var(--jkc-party-color);
+}
+
+/* Nationalist Congress Kerala  || Democratic Congress Kerala */
+.party-color-nck{
+    background-color: var(--nck-party-color);
+}
+.party-color-dck{
+    background-color: var(--dck-party-color);
 }
