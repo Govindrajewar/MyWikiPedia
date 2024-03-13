@@ -100,6 +100,8 @@
     /* Odisha State Party */
     --bjd-party-color       : #70A548;
     --gp-party-color        : #FF33CC;
+    --sjpr-party-color      : #74C365;
+    --uc-party-color        : #FCEE23;
 
 
     /* Jharkhand State Party */
@@ -454,7 +456,15 @@
     background-color: var(--gp-party-color);
 }
 
+/* Samajwadi Janata Party (Rashtriya) */
+.party-color-sjpr{
+    background-color: var(--sjpr-party-color);
+}
 
+/* Utkal Congress */
+.party-color-uc{
+    background-color: var(--uc-party-color);
+}
 
 /* Jharkhand State Party */
 /* Jharkhand Party */
