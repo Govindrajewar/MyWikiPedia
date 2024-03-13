@@ -10,15 +10,18 @@
     --incu-party-color      : #7777FF;
     --ics-party-color       : #00FF00;
     --icsscs-party-color    : #000000;
-    --cpi-party-color       : #e70d21;
-    --cpim-party-color      : #FF1D15;
-    --cpiml-party-color     : #C41301;
     --jd-party-color        : green;
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
-    --aifb-party-color      : #ac1313;
     --swatantra-party-color : blue;
     --socialist-party-color : #33CC00;
+
+    /* Communist Party */
+    --cpi-party-color       : #e70d21;
+    --cpim-party-color      : #FF1D15;
+    --cpiml-party-color     : #C41301;
+    --aifb-party-color      : #ac1313;
+    --suci-party-color      : darksalmon;
 
 
     /* Maharashtra State Party */
@@ -86,13 +89,22 @@
 
 
     /* Haryana State Party */
-    --jjp-party-color      : #026D37;
-    --ld-party-color       : #00FF66;
-    --hjc-party-color      : #FFFF00;
-    --inld-party-color     : #336600;
-    --hvp-party-color      : #CC00CC;
-    --jps-party-color      : #06038D;
-    --hlp-party-color      : #C4702A;
+    --jjp-party-color       : #026D37;
+    --ld-party-color        : #00FF66;
+    --hjc-party-color       : #FFFF00;
+    --inld-party-color      : #336600;
+    --hvp-party-color       : #CC00CC;
+    --jps-party-color       : #06038D;
+    --hlp-party-color       : #C4702A;
+
+    /* Odisha State Party */
+    --bjd-party-color       : #70A548;
+    --gp-party-color        : #FF33CC;
+
+
+    /* Jharkhand State Party */
+    --jpjh-party-color      : green;
+    --jmm-party-color       : #337316;
 }
 
 
@@ -149,6 +161,11 @@
 /* Communist Party of India (Marxist-Leninist) Liberation */
 .party-color-cpiml{
     background-color: var(--cpiml-party-color);
+}
+
+/* Socialist Unity Centre of India */
+.party-color-suci{
+    background-color: var(--suci-party-color);
 }
 
 /* Samyukta Socialist Party */
@@ -424,4 +441,28 @@
 /* Haryana Lokhit Party */
 .party-color-hlp{
     background-color: var(--hlp-party-color);
+}
+
+
+/* Odisha State Party */
+.party-color-bjd{
+    background-color: var(--bjd-party-color);
+}
+
+/* Ganatantra Parishad */
+.party-color-gp{
+    background-color: var(--gp-party-color);
+}
+
+
+
+/* Jharkhand State Party */
+/* Jharkhand Party */
+.party-color-jp-jh{
+    background-color: var(--jpjh-party-color);
+}
+
+/* Jharkhand Mukti Morcha */
+.party-color-jmm{
+    background-color: var(--jmm-party-color);
 }
