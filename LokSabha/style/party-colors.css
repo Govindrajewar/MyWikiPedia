@@ -107,6 +107,11 @@
     /* Jharkhand State Party */
     --jpjh-party-color      : green;
     --jmm-party-color       : #337316;
+
+
+    /* Union Territory Party */
+    --bnp-party-color       : #FFCC66;
+    --aap-party-color       : #0072B0;
 }
 
 
@@ -475,4 +480,16 @@
 /* Jharkhand Mukti Morcha */
 .party-color-jmm{
     background-color: var(--jmm-party-color);
+}
+
+
+/* Union Territory Party */
+/* Bharatiya Navshakti Party */
+.party-color-bnp{
+    background-color: var(--bnp-party-color);
+}
+
+/* Aam Aadmi Party */
+.party-color-aap{
+    background-color: var(--aap-party-color);
 }
