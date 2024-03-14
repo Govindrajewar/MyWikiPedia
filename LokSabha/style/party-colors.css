@@ -109,9 +109,53 @@
     --jmm-party-color       : #337316;
 
 
+    /* Tamil Nadu State Party */
+    --pmk-party-color       : #FFFF00;
+    --dmk-party-color       : #FF0D0D;
+    --aiadmk-party-color    : #009546;
+
+
+    /* Tripura State Party */
+    --tmp-party-color       : #FFDD00;
+    --ipft-party-color      : #07892f;
+
+
+    /* Meghalaya State Party */
+    --aphlc-party-color     : YELLOW;
+    --npp-party-color       : #FFCA61;
+    --hspsp-party-color     : #0602AF;
+
+
+    /* Mizoram State Party */
+    --mu-party-color        : #FFFF00;
+    --mnf-party-color       : #2E5694;
+
+
+    /* Nagaland State Party */
+    --ndpp-party-color      : #ED1B24;
+    --npf-party-color       : #1717CC;
+    --npc-party-color       : #1717CC;
+    --udf-party-color       : MAROON;
+    --ufn-party-color       : MAROON;
+    --nno-party-color       : #FFFF00;
+
+
+    /* Sikkim State Party */
+    --skm-party-color       : #ED1E26;
+    --sdf-party-color       : #FBEC5D;
+    --ssp-party-color       : #663300;
+    --sjp-party-color       : #5bb30e;
+
+
+    /* West Bengal State Party */
+    --aitc-party-color      : #20C646;
+
+
     /* Union Territory Party */
     --bnp-party-color       : #FFCC66;
     --aap-party-color       : #0072B0;
+    --jknc-party-color      : #FE0000;
+    --ainrc-party-color     : #FDA209;
 }
 
 
@@ -483,6 +527,24 @@
 }
 
 
+/* Tamil Nadu State Party */
+/* Pattali Makkal Katchi */
+.party-color-pmk{
+    background-color: var(--pmk-party-color);
+}
+
+/* All India Anna Dravida Munnetra Kazhagam */
+.party-color-dmk{
+    background-color: var(--dmk-party-color);
+}
+
+/* Dravida Munnetra Kazhagam */
+.party-color-aiadmk{
+    background-color: var(--aiadmk-party-color);
+}
+
+
+
 /* Union Territory Party */
 /* Bharatiya Navshakti Party */
 .party-color-bnp{
@@ -492,4 +554,121 @@
 /* Aam Aadmi Party */
 .party-color-aap{
     background-color: var(--aap-party-color);
+}
+
+/* Jammu & Kashmir National Conference */
+.party-color-jknc{
+    background-color: var(--jknc-party-color);
+}
+
+/* All India N.R. Congress */
+.party-color-ainrc{
+    background-color: var(--ainrc-party-color);
+}
+
+
+
+/* Tripura State Party */
+/* Tipra Motha Party */
+.party-color-tmp{
+    background-color: var(--tmp-party-color);
+}
+
+/* Indigenous People's Front of Tripura */
+.party-color-ipft{
+    background-color: var(--ipft-party-color);
+}
+
+
+
+/* Meghalaya State Party */
+/* All Party Hill Leaders Conference */
+.party-color-aphlc{
+    background-color: var(--aphlc-party-color);
+}
+
+/* National People's Party */
+.party-color-npp{
+    background-color: var(--npp-party-color);
+}
+
+/* Hill State People's Democratic Party */
+.party-color-hspdp{
+    background-color: var(--hspsp-party-color);
+}
+
+
+
+/* Mizoram State Party */
+/* Mizo Union */
+.party-color-mu{
+    background-color: var(--mu-party-color);
+}
+
+/* Mizo National Front */
+.party-color-mnf{
+    background-color: var(--mnf-party-color);
+}
+
+
+
+/* Nagaland State Party */
+/* Nationalist Democratic Progressive Party */
+.party-color-ndpp{
+    background-color: var(--ndpp-party-color);
+}
+
+/* Nagaland People's Front */
+.party-color-npf{
+    background-color: var(--npf-party-color);
+}
+
+/* Nagaland People's Council */
+.party-color-npc{
+    background-color: var(--npc-party-color);
+}
+
+/* United Democratic Front */
+.party-color-udf{
+    background-color: var(--udf-party-color);
+}
+
+/* United Front of Nagaland */
+.party-color-ufn{
+    background-color: var(--ufn-party-color);
+}
+
+/* Nagaland Nationalist Organisation */
+.party-color-nno{
+    background-color: var(--nno-party-color);
+}
+
+
+
+/* Sikkim State Party */
+/* Sikkim Krantikari Morcha */
+.party-color-skm{
+    background-color: var(--skm-party-color);
+}
+
+/* Sikkim Democratic Front */
+.party-color-sdf{
+    background-color: var(--sdf-party-color);
+}
+
+/* Sikkim Sangram Parishad */
+.party-color-ssp{
+    background-color: var(--ssp-party-color);
+}
+
+/* Sikkim Janata Parishad */
+.party-color-sjp{
+    background-color: var(--sjp-party-color);
+}
+
+
+
+/* West Bengal State Party */
+.party-color-aitc{
+    background-color: var(--aitc-party-color);
 }
