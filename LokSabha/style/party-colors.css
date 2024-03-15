@@ -86,7 +86,7 @@
 
     /* Karnataka State Party */
     --jds-party-color       : Green;
-
+    --kjp-party-color       : #65CB9B;
 
     /* Haryana State Party */
     --jjp-party-color       : #026D37;
@@ -143,7 +143,7 @@
     /* Sikkim State Party */
     --skm-party-color       : #ED1E26;
     --sdf-party-color       : #FBEC5D;
-    --ssp-party-color       : #663300;
+    --sspsk-party-color     : #663300;
     --sjp-party-color       : #5bb30e;
 
 
@@ -420,11 +420,20 @@
 }
 
 
+
 /* Karnataka State Party */
 .party-color-jds{
     background-color: var(--jds-party-color);
 }
 
+.party-color-kjp{
+    background-color: var(--kjp-party-color);
+}
+
+
+
+
+/* Kerala State Party */
 /* Revolutionary Socialist Party */
 .party-color-rsp-kl{
     background-color: var(--rspkl-party-color);
@@ -467,6 +476,7 @@
 .party-color-dck{
     background-color: var(--dck-party-color);
 }
+
 
 
 /* Haryana State Party */
@@ -667,8 +677,8 @@
 }
 
 /* Sikkim Sangram Parishad */
-.party-color-ssp{
-    background-color: var(--ssp-party-color);
+.party-color-ssp-sk{
+    background-color: var(--sspsk-party-color);
 }
 
 /* Sikkim Janata Parishad */
