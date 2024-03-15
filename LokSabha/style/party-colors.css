@@ -151,6 +151,16 @@
     --aitc-party-color      : #20C646;
 
 
+    /* Karnataka State Party */
+    --ls-party-color        : #336600;
+    --lss-party-color       : #00FF00;
+    --krpp-party-color      : #0000FF;
+
+
+    /* Bihar State Party */
+    --jdu-party-color       : #003366;
+
+
     /* Union Territory Party */
     --bnp-party-color       : #FFCC66;
     --aap-party-color       : #0072B0;
@@ -671,4 +681,27 @@
 /* West Bengal State Party */
 .party-color-aitc{
     background-color: var(--aitc-party-color);
+}
+
+
+
+/* Karnataka State Party */
+/* Lok Shakti */
+.party-color-ls{
+    background-color: var(--ls-party-color);
+}
+
+.party-color-lss{
+    background-color: var(--lss-party-color);
+}
+
+.party-color-krpp{
+    background-color: var(--krpp-party-color);
+}
+
+
+/* Bihar State Party */
+/* Janata Dal (United) */
+.party-color-jdu{
+    background-color: var(--jdu-party-color);
 }
