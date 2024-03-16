@@ -155,6 +155,7 @@
     --ls-party-color        : #336600;
     --lss-party-color       : #00FF00;
     --krpp-party-color      : #0000FF;
+    --skp-party-color       : #FFFF00;
 
 
     /* Bihar State Party */
@@ -701,13 +702,21 @@
     background-color: var(--ls-party-color);
 }
 
+/* Lok Sewak Sangh */
 .party-color-lss{
     background-color: var(--lss-party-color);
 }
 
+/* Kalyana Rajya Pragathi Paksha */
 .party-color-krpp{
     background-color: var(--krpp-party-color);
 }
+
+/* Sarvodaya Karnataka Paksha */
+.party-color-skp{
+    background-color: var(--skp-party-color);
+}
+
 
 
 /* Bihar State Party */
