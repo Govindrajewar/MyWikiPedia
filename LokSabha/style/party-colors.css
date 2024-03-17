@@ -5,6 +5,7 @@
     --ind-party-color       : #DCDCDC;
     --bjp-party-color       : #F37020;
     --bjs-party-color       : #FF9933;
+    --hm-party-color        : #FF9933;
     --inc-party-color       : #19AAED;
     --inci-party-color      : #0EF4E1;
     --incu-party-color      : #7777FF;
@@ -182,6 +183,11 @@
 
 .party-color-bjs{
     background-color: var(--bjs-party-color);
+}
+
+/* Hindu Mahasabha */
+.party-color-hm{
+    background-color: var(--hm-party-color);
 }
 
 .party-color-inc{
