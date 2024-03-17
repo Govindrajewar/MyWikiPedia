@@ -167,6 +167,7 @@
     --rpik-party-color      : DARKBLUE;
     --bld-party-color       : #0000FF;
     --aiict-party-color     : #00FFFF;
+    --bap-party-color       : #FF0000;
 
 
     /* Union Territory Party */
@@ -755,3 +756,7 @@
     background-color: var(--aiict-party-color);
 }
 
+/* Bharat Adivasi Party */
+.party-color-bap{
+    background-color: var(--bap-party-color);
+}
