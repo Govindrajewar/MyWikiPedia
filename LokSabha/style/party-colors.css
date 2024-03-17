@@ -163,6 +163,12 @@
     --jdu-party-color       : #003366;
 
 
+    /* Madhya Pradesh State Party */
+    --rpik-party-color      : DARKBLUE;
+    --bld-party-color       : #0000FF;
+    --aiict-party-color     : #00FFFF;
+
+
     /* Union Territory Party */
     --bnp-party-color       : #FFCC66;
     --aap-party-color       : #0072B0;
@@ -730,3 +736,22 @@
 .party-color-jdu{
     background-color: var(--jdu-party-color);
 }
+
+
+
+/* Madhya Pradesh State Party */
+/*  Republican Party of India (Khobragade) */
+.party-color-rpik{
+    background-color: var(--rpik-party-color);
+}
+
+/* Bharatiya Lok Dal */
+.party-color-bld{
+    background-color: var(--bld-party-color);
+}
+
+/* All India Indira Congress (T) */
+.party-color-aiict{
+    background-color: var(--aiict-party-color);
+}
+
