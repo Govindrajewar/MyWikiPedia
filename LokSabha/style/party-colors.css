@@ -161,6 +161,9 @@
 
     /* Bihar State Party */
     --jdu-party-color       : #003366;
+    --rjd-party-color       : #056D05;
+    --ipf-party-color       : #E40017;
+    --rlsp-party-color      : #999966;
 
 
     /* Madhya Pradesh State Party */
@@ -736,6 +739,21 @@
 /* Janata Dal (United) */
 .party-color-jdu{
     background-color: var(--jdu-party-color);
+}
+
+/* Rashtriya Janata Dal */
+.party-color-rjd{
+    background-color: var(--rjd-party-color);
+}
+
+/* Indian People's Front */
+.party-color-ipf{
+    background-color: var(--ipf-party-color);
+}
+
+/* Rashtriya Lok Samata Party */
+.party-color-rlsp{
+    background-color: var(--rlsp-party-color);
 }
 
 
