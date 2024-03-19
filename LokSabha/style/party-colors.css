@@ -164,6 +164,9 @@
     --rjd-party-color       : #056D05;
     --ipf-party-color       : #E40017;
     --rlsp-party-color      : #999966;
+    --samata-party-color    : #F26F21;
+    --sjp-bh-party-color    : #00FF00;
+    --ljp-party-color       : #0093DD;
 
 
     /* Madhya Pradesh State Party */
@@ -754,6 +757,21 @@
 /* Rashtriya Lok Samata Party */
 .party-color-rlsp{
     background-color: var(--rlsp-party-color);
+}
+
+/* Samata Party */
+.party-color-samata{
+    background-color: var(--samata-party-color);
+}
+
+/* Samajwadi Janata Party */
+.party-color-sjp-bh{
+    background-color: var(--sjp-bh-party-color);
+}
+
+/* Lok Janshakti Party */
+.party-color-ljp{
+    background-color: var(--ljp-party-color);
 }
 
 
