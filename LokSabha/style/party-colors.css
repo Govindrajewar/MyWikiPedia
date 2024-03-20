@@ -8,7 +8,9 @@
     --hm-party-color        : #FF9933;
     --inc-party-color       : #19AAED;
     --inci-party-color      : #0EF4E1;
+    --incj-party-color      : #00CCFF;
     --incu-party-color      : #7777FF;
+    --inco-party-color      : #a5f1f9;
     --ics-party-color       : #00FF00;
     --icsscs-party-color    : #000000;
     --jd-party-color        : green;
@@ -167,6 +169,7 @@
     --samata-party-color    : #F26F21;
     --sjp-bh-party-color    : #00FF00;
     --ljp-party-color       : #0093DD;
+    --ham-party-color       : #F5D62A;
 
 
     /* Madhya Pradesh State Party */
@@ -209,6 +212,14 @@
 
 .party-color-inci{
     background-color: var(--inci-party-color);
+}
+
+.party-color-incj{
+    background-color: var(--incj-party-color);
+}
+
+.party-color-inco{
+    background-color: var(--inco-party-color);
 }
 
 .party-color-icsscs{
@@ -772,6 +783,11 @@
 /* Lok Janshakti Party */
 .party-color-ljp{
     background-color: var(--ljp-party-color);
+}
+
+/* Hindustani Awam Morcha */
+.party-color-ham{
+    background-color: var(--ham-party-color);
 }
 
 
