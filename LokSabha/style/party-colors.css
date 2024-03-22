@@ -16,7 +16,7 @@
     --jd-party-color        : green;
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
-    --swatantra-party-color : blue;
+    --swatantra-party-color : #0000FF;
     --socialist-party-color : #33CC00;
 
     /* Communist Party */
@@ -184,6 +184,30 @@
     --aap-party-color       : #0072B0;
     --jknc-party-color      : #FE0000;
     --ainrc-party-color     : #FDA209;
+
+
+    /* Goa State Party  */
+    --mgp-party-color       : #AF7050;
+    --rgp-party-color       : #E3C773;
+    --ugp-party-color       : #CA8642;
+    --ugdp-party-color      : #5bb30e;
+    --gfp-party-color       : #353982;
+
+    /* Himachal Pradesh State Party */
+    --hvc-party-color       : #CE8186;
+
+
+    /* Arunachal Pradesh State Party */
+    --ac-party-color        : #CCCCFF;
+
+
+    /* West Bengal State Party */
+    --tmc-party-color       : #20C646;
+
+
+    /* Manipur State Party */
+    --mpp-party-color       : #99CC99;
+    --mscp-party-color      : #99CC99;
 }
 
 
@@ -811,4 +835,66 @@
 /* Bharat Adivasi Party */
 .party-color-bap{
     background-color: var(--bap-party-color);
+}
+
+
+/* Goa State Party */
+/* Maharashtrawadi Gomantak Party */
+.party-color-mgp{
+    background-color: var(--mgp-party-color);
+}
+
+/* Revolutionary Goans Party */
+.party-color-rgp{
+    background-color: var(--rgp-party-color);
+}
+
+/* United Goans Party */
+.party-color-ugp{
+    background-color: var(--ugp-party-color);
+}
+
+
+/* United Goans Democratic Party */
+.party-color-ugdp{
+    background-color: var(--ugdp-party-color);
+}
+
+/*  */
+.party-color-gfp{
+    background-color: var(--gfp-party-color);
+}
+
+
+/* Himachal Pradesh State Party */
+.party-color-hvc{
+    background-color: var(--hvc-party-color);
+}
+
+
+/* Arunachal Pradesh State Party */
+/* Arunachal Congress */
+.party-color-ac{
+    background-color: var(--ac-party-color);
+}
+
+
+
+/* West Bengal State Party */
+/* All India Trinamool Congress */
+.party-color-tmc{
+    background-color: var(--tmc-party-color);
+}
+
+
+
+/* Manipur State Party */
+/* Manipur People's Party */
+.party-color-mpp{
+    background-color: var(--mpp-party-color);
+}
+
+/* Manipur State Congress Party */
+.party-color-mscp{
+    background-color: var(--mscp-party-color);
 }
