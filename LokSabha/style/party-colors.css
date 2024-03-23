@@ -208,6 +208,11 @@
     /* Manipur State Party */
     --mpp-party-color       : #99CC99;
     --mscp-party-color      : #99CC99;
+
+
+    /* Chhattisgarh State Party */
+    --rrp-party-color       : #330033;
+    --ggp-party-color       : PURPLE;
 }
 
 
@@ -897,4 +902,15 @@
 /* Manipur State Congress Party */
 .party-color-mscp{
     background-color: var(--mscp-party-color);
+}
+
+
+/* Chhattisgarh State Party */
+.party-color-rrp{
+    background-color: var(--rrp-party-color);
+}
+
+/* Gondwana Gantantra Party */
+.party-color-ggp{
+    background-color: var(--ggp-party-color);
 }
