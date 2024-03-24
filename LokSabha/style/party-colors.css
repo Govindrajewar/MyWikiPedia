@@ -213,6 +213,14 @@
     /* Chhattisgarh State Party */
     --rrp-party-color       : #330033;
     --ggp-party-color       : PURPLE;
+
+
+    /* Punjab State Party */
+    --sad-party-color       : #0F204A;
+    --sada-party-color      : #FFCF00;
+    --ad-party-color        : #0F204A;
+    --adsg-party-color      : #0F204A;
+    --adsfs-party-color     : #cb0922;
 }
 
 
@@ -913,4 +921,31 @@
 /* Gondwana Gantantra Party */
 .party-color-ggp{
     background-color: var(--ggp-party-color);
+}
+
+
+
+/* Punjab State Party */
+/* Shiromani Akali Dal */
+.party-color-sad{
+    background-color: var(--sad-party-color);
+}
+
+/* Shiromani Akali Dal (Amritsar) */
+.party-color-sada{
+    background-color: var(--sada-party-color);
+}
+
+/* Akali Dal */
+.party-color-ad{
+    background-color: var(--ad-party-color);
+}
+
+/* Akali Dal (Sant Group) */
+.party-color-adsg{
+    background-color: var(--adsg-party-color);
+}
+/* Akali Dal (Sant Fateh Singh) */
+.party-color-adsfs{
+    background-color: var(--adsfs-party-color);
 }
