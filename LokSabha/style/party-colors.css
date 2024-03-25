@@ -108,8 +108,11 @@
 
 
     /* Jharkhand State Party */
-    --jpjh-party-color      : green;
+    --jpjh-party-color      : GREEN;
     --jmm-party-color       : #337316;
+    --jvm-party-color       : #EDFB06;
+    --ajsu-party-color      : #6827B5;
+    --mcc-party-color       : #cc0d0d;
 
 
     /* Tamil Nadu State Party */
@@ -612,6 +615,21 @@
 /* Jharkhand Mukti Morcha */
 .party-color-jmm{
     background-color: var(--jmm-party-color);
+}
+
+/* Jharkhand Vikas Morcha */
+.party-color-jvm{
+    background-color: var(--jvm-party-color);
+}
+
+/* All Jharkhand Students Union */
+.party-color-ajsu{
+    background-color: var(--ajsu-party-color);
+}
+
+/* Marxist Coordination Committee */
+.party-color-mcc{
+    background-color: var(--mcc-party-color);
 }
 
 
