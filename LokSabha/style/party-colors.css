@@ -224,7 +224,13 @@
     --ad-party-color        : #0F204A;
     --adsg-party-color      : #0F204A;
     --adsfs-party-color     : #cb0922;
+
+
+/* Rajasthan State Party */
+    --rlp-party-color       : #FFD42A;
 }
+
+
 
 
 /* Additional Styling  */
@@ -966,4 +972,11 @@
 /* Akali Dal (Sant Fateh Singh) */
 .party-color-adsfs{
     background-color: var(--adsfs-party-color);
+}
+
+
+
+/* Rajasthan State Party */
+.party-color-rlp{
+    background-color: var(--rlp-party-color);
 }
