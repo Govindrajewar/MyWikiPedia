@@ -186,6 +186,7 @@
     --bnp-party-color       : #FFCC66;
     --aap-party-color       : #0072B0;
     --jknc-party-color      : #FE0000;
+    --jkpdp-party-color     : #058532;
     --ainrc-party-color     : #FDA209;
 
 
@@ -226,7 +227,7 @@
     --adsfs-party-color     : #cb0922;
 
 
-/* Rajasthan State Party */
+    /* Rajasthan State Party */
     --rlp-party-color       : #FFD42A;
 }
 
@@ -671,6 +672,11 @@
 /* Jammu & Kashmir National Conference */
 .party-color-jknc{
     background-color: var(--jknc-party-color);
+}
+
+/* Jammu & Kashmir People's Democratic Party */
+.party-color-jkpdp{
+    background-color: var(--jkpdp-party-color);
 }
 
 /* All India N.R. Congress */
