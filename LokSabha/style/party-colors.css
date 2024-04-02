@@ -52,6 +52,9 @@
 
     /* Telangana State Party */
     --aimim-party-color     : #0c6b4b;
+    --brs-party-color       : #F84996;
+    --tps-party-color       : #800000;
+    --pdf-party-color       : #E6452E;
 
 
     /* Andhra Pradesh State Party */
@@ -413,6 +416,21 @@
 /* Telangana State Party */
 .party-color-aimim{
     background-color: var(--aimim-party-color);
+}
+
+/* Bharat Rashtra Samithi */
+.party-color-brs{
+    background-color: var(--brs-party-color);
+}
+
+/* Telangana Praja Samithi */
+.party-color-tps{
+    background-color: var(--tps-party-color);
+}
+
+/* People's Democratic Front */
+.party-color-pdf{
+    background-color: var(--pdf-party-color);
 }
 
 
