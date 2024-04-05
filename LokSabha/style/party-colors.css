@@ -13,7 +13,7 @@
     --inco-party-color      : #a5f1f9;
     --ics-party-color       : #00FF00;
     --icsscs-party-color    : #000000;
-    --jd-party-color        : green;
+    --jd-party-color        : GREEN;
     --jp-party-color        : #1F75FE;
     --ssp-party-color       : #33CC00;
     --swatantra-party-color : #0000FF;
@@ -48,6 +48,9 @@
     /* Uttar Pradesh State Party */
     --sp-party-color        : #FF2222;
     --bsp-party-color       : #22409A;
+    --rld-party-color       : #006400;
+    --ablc-party-color      : #93DE73;
+    --ads-party-color       : #27176D;
 
 
     /* Telangana State Party */
@@ -404,12 +407,29 @@
 
 
 /* Uttar Pradesh State Party */
+/* Samajwadi Party */
 .party-color-sp{
     background-color: var(--sp-party-color);
 }
 
+/* Bahujan Samaj Party */
 .party-color-bsp{
     background-color: var(--bsp-party-color);
+}
+
+/* Rashtriya Lok Dal */
+.party-color-rld{
+    background-color: var(--rld-party-color);
+}
+
+/* Akhil Bharatiya Loktantrik Congress */
+.party-color-ablc{
+    background-color: var(--ablc-party-color);
+}
+
+/* Apna Dal (Sonelal) */
+.party-color-ads{
+    background-color: var(--ads-party-color);
 }
 
 
