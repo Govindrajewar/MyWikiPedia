@@ -15,6 +15,7 @@
     --icsscs-party-color    : #000000;
     --jd-party-color        : GREEN;
     --jp-party-color        : #1F75FE;
+    --js-party-color        : #FF9933;
     --ssp-party-color       : #33CC00;
     --swatantra-party-color : #0000FF;
     --socialist-party-color : #33CC00;
@@ -51,6 +52,7 @@
     --rld-party-color       : #006400;
     --ablc-party-color      : #93DE73;
     --ads-party-color       : #27176D;
+    --bkd-party-color       : #08ff10;
 
 
     /* Telangana State Party */
@@ -295,6 +297,10 @@
     background-color: var(--jp-party-color);
 }
 
+.party-color-js{
+    background-color: var(--js-party-color);
+}
+
 .party-color-cpi{
     background-color: var(--cpi-party-color);
 }
@@ -431,6 +437,12 @@
 .party-color-ads{
     background-color: var(--ads-party-color);
 }
+
+/* Bharatiya Kranti Dal */
+.party-color-bkd{
+    background-color: var(--bkd-party-color);
+}
+
 
 
 /* Telangana State Party */
