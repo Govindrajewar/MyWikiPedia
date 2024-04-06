@@ -53,6 +53,7 @@
     --ablc-party-color      : #93DE73;
     --ads-party-color       : #27176D;
     --bkd-party-color       : #08ff10;
+    --jkp-party-color       : #FF9933;
 
 
     /* Telangana State Party */
@@ -442,6 +443,12 @@
 .party-color-bkd{
     background-color: var(--bkd-party-color);
 }
+
+/* Jan Kranti Party */
+.party-color-jkp{
+    background-color: var(--jkp-party-color);
+}
+
 
 
 
