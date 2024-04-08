@@ -54,6 +54,7 @@
     --ads-party-color       : #27176D;
     --bkd-party-color       : #08ff10;
     --jkp-party-color       : #FF9933;
+    --jdl-party-color       : YELLOW;
 
 
     /* Telangana State Party */
@@ -448,6 +449,12 @@
 .party-color-jkp{
     background-color: var(--jkp-party-color);
 }
+
+/* Jansatta Dal (Loktantrik) */
+.party-color-jdl{
+    background-color: var(--jdl-party-color);
+}
+
 
 
 
