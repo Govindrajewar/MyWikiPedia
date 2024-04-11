@@ -55,6 +55,8 @@
     --bkd-party-color       : #08ff10;
     --jkp-party-color       : #FF9933;
     --jdl-party-color       : YELLOW;
+    --sbsp-party-color      : #f5d50a;
+    --nishad-party-color    : #BA0005;
 
 
     /* Telangana State Party */
@@ -455,7 +457,15 @@
     background-color: var(--jdl-party-color);
 }
 
+/* Suheldev Bharatiya Samaj Party */
+.party-color-sbsp{
+    background-color: var(--sbsp-party-color);
+}
 
+/* Nirbal Indian Shoshit Hamara Aam Dal */
+.party-color-nishad{
+    background-color: var(--nishad-party-color);
+}
 
 
 
