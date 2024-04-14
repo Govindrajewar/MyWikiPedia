@@ -52,6 +52,7 @@
     --rld-party-color       : #006400;
     --ablc-party-color      : #93DE73;
     --ads-party-color       : #27176D;
+    --adk-party-color       : #FF33CC;
     --bkd-party-color       : #08ff10;
     --jkp-party-color       : #FF9933;
     --jdl-party-color       : YELLOW;
@@ -440,6 +441,11 @@
 /* Apna Dal (Sonelal) */
 .party-color-ads{
     background-color: var(--ads-party-color);
+}
+
+/* Apna Dal (Kamerawadi) */
+.party-color-adk{
+    background-color: var(--adk-party-color);
 }
 
 /* Bharatiya Kranti Dal */
