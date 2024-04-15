@@ -66,11 +66,13 @@ footer{
 /* Anchor Tag */
 a{
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
+
 }
 
 a:hover{
-    color: blue;
+    color: rgb(74, 110, 184);
 }
 
 
