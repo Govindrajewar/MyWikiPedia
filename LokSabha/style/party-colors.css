@@ -166,10 +166,6 @@
     --sjp-party-color       : #5bb30e;
 
 
-    /* West Bengal State Party */
-    --aitc-party-color      : #20C646;
-
-
     /* Karnataka State Party */
     --ls-party-color        : #336600;
     --lss-party-color       : #00FF00;
@@ -220,7 +216,9 @@
 
     /* West Bengal State Party */
     --tmc-party-color       : #20C646;
-
+    --rspwb-party-color     : #d84c4c;
+    --bgpm-party-color      : #FFEF03;
+    --gnlf-party-color      : #347C17;
 
     /* Manipur State Party */
     --mpp-party-color       : #99CC99;
@@ -867,8 +865,23 @@
 
 
 /* West Bengal State Party */
-.party-color-aitc{
-    background-color: var(--aitc-party-color);
+.party-color-tmc{
+    background-color: var(--tmc-party-color);
+}
+
+/* Revolutionary Socialist Party */
+.party-color-rsp-wb{
+    background-color: var(--rspwb-party-color);
+}
+
+/* Bharatiya Gorkha Prajatantrik Morcha */
+.party-color-bgpm{
+    background-color: var(--bgpm-party-color);
+}
+
+/* Gorkha National Liberation Front */
+.party-color-gnlf{
+    background-color: var(--gnlf-party-color);
 }
 
 
@@ -1000,15 +1013,6 @@
 .party-color-ac{
     background-color: var(--ac-party-color);
 }
-
-
-
-/* West Bengal State Party */
-/* All India Trinamool Congress */
-.party-color-tmc{
-    background-color: var(--tmc-party-color);
-}
-
 
 
 /* Manipur State Party */
