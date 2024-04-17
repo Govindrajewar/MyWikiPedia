@@ -25,7 +25,7 @@
     --cpim-party-color      : #FF1D15;
     --cpiml-party-color     : #C41301;
     --aifb-party-color      : #ac1313;
-    --suci-party-color      : darksalmon;
+    --suci-party-color      : #FF0000;
 
 
     /* Maharashtra State Party */
@@ -219,6 +219,7 @@
     --rspwb-party-color     : #d84c4c;
     --bgpm-party-color      : #FFEF03;
     --gnlf-party-color      : #347C17;
+    --bc-party-color        : BLUE;
 
     /* Manipur State Party */
     --mpp-party-color       : #99CC99;
@@ -883,6 +884,12 @@
 .party-color-gnlf{
     background-color: var(--gnlf-party-color);
 }
+
+/* Bangla Congress */
+.party-color-bc{
+    background-color: var(--bc-party-color);
+}
+
 
 
 
