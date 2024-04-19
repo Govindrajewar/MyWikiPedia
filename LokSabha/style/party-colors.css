@@ -220,6 +220,9 @@
     --bgpm-party-color      : #FFEF03;
     --gnlf-party-color      : #347C17;
     --bc-party-color        : BLUE;
+    --isf-party-color       : #0204EF;
+    --mfb-party-color       : RED;
+
 
     /* Manipur State Party */
     --mpp-party-color       : #99CC99;
@@ -890,6 +893,16 @@
     background-color: var(--bc-party-color);
 }
 
+/* Indian Secular Front */
+.party-color-isf{
+    background-color: var(--isf-party-color);
+}
+
+
+/* Marxist Forward Bloc */
+.party-color-mfb{
+    background-color: var(--mfb-party-color);
+}
 
 
 
