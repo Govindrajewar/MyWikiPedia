@@ -132,6 +132,8 @@
     --pmk-party-color       : #FFFF00;
     --dmk-party-color       : #FF0D0D;
     --aiadmk-party-color    : #009546;
+    --vck-party-color       : #1E90FF;
+    --tmctn-party-color     : #ff8d33;
 
 
     /* Tripura State Party */
@@ -736,6 +738,16 @@
 /* Dravida Munnetra Kazhagam */
 .party-color-aiadmk{
     background-color: var(--aiadmk-party-color);
+}
+
+/* Viduthalai Chiruthaigal Katchi */
+.party-color-vck{
+    background-color: var(--vck-party-color);
+}
+
+/* Tamil Maanila Congress */
+.party-color-tmc-tn{
+    background-color: var(--tmctn-party-color);
 }
 
 
