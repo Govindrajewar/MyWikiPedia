@@ -134,6 +134,7 @@
     --aiadmk-party-color    : #009546;
     --vck-party-color       : #1E90FF;
     --tmctn-party-color     : #ff8d33;
+    --mdmk-party-color      : #FC0000;
 
 
     /* Tripura State Party */
@@ -730,12 +731,12 @@
     background-color: var(--pmk-party-color);
 }
 
-/* All India Anna Dravida Munnetra Kazhagam */
+/* Dravida Munnetra Kazhagam */
 .party-color-dmk{
     background-color: var(--dmk-party-color);
 }
 
-/* Dravida Munnetra Kazhagam */
+/* All India Anna Dravida Munnetra Kazhagam */
 .party-color-aiadmk{
     background-color: var(--aiadmk-party-color);
 }
@@ -750,6 +751,10 @@
     background-color: var(--tmctn-party-color);
 }
 
+/* Marumalarchi Dravida Munnetra Kazhagam */
+.party-color-mdmk{
+    background-color: var(--mdmk-party-color);
+}
 
 
 /* Union Territory Party */
