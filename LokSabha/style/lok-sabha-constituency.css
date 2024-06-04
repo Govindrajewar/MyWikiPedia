@@ -2,6 +2,10 @@ body{
     background-color: #cff4fc;
 }
 
+table{
+    width: 100%;
+}
+
 
 /* table styling */
 table, tr, th, td{
@@ -13,6 +17,10 @@ table, tr, th, td{
 .table-header{
     font-size: 20px;
     font-weight: bold;
+}
+
+thead>tr>td{
+    text-align: center;
 }
 
 
@@ -27,8 +35,6 @@ h4{
 
 .election-winner{
     font-weight: bold;
-    font-size: 18px;
-    color: rgb(44, 107, 171);
 }
 
 
@@ -60,9 +66,17 @@ footer{
 /* Anchor Tag */
 a{
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 a:hover{
-    color: blue;
+    color: rgb(74, 110, 184);
+}
+
+
+.loksabha-note{
+    font-weight: bold;
+    text-align: center;
 }

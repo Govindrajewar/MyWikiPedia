@@ -1,25 +1,261 @@
 /* Party-wise color list */
+
 :root{
+    /* National Party */
     --ind-party-color       : #DCDCDC;
     --bjp-party-color       : #F37020;
+    --bjs-party-color       : #FF9933;
+    --hm-party-color        : #FF9933;
     --inc-party-color       : #19AAED;
+    --inci-party-color      : #0EF4E1;
+    --incj-party-color      : #00CCFF;
+    --incu-party-color      : #7777FF;
+    --inco-party-color      : #a5f1f9;
+    --ics-party-color       : #00FF00;
+    --icsscs-party-color    : #000000;
+    --jd-party-color        : GREEN;
+    --jp-party-color        : #1F75FE;
+    --js-party-color        : #FF9933;
+    --ssp-party-color       : #33CC00;
+    --swatantra-party-color : #0000FF;
+    --socialist-party-color : #33CC00;
+
+    /* Communist Party */
+    --cpi-party-color       : #cb0922;
+    --cpim-party-color      : #FF1D15;
+    --cpiml-party-color     : #C41301;
+    --aifb-party-color      : #ac1313;
+    --suci-party-color      : #FF0000;
+
+
+    /* Maharashtra State Party */
+    --psp-party-color       : #F15270;
     --ncp-party-color       : #00B2B2;
-    --jd-party-color        : green;
     --ss-party-color        : orangered;
     --ssubt-party-color     : rgb(253, 143, 104);
-    --vba-party-color       : blue;
-    --cpi-party-color       : red;
+    --vba-party-color       : #0000FF;
     --rpi-party-color       : #000066;
     --pjp-party-color       : #A51E25;
+    --jss-party-color       : #EC0090;
+    --swp-party-color       : #D06767;
+    --pwp-party-color       : #e77373;
+    --mns-party-color       : #5F2301;
+    --scf-party-color       : violet;
+    --swf-party-color       : #D06767;
+    --rsp-party-color       : #FFFF00;
+    --bva-party-color       : #FEFF03;
+
+
+    /* Uttar Pradesh State Party */
+    --sp-party-color        : #FF2222;
+    --bsp-party-color       : #22409A;
+    --rld-party-color       : #006400;
+    --ablc-party-color      : #93DE73;
+    --ads-party-color       : #27176D;
+    --adk-party-color       : #FF33CC;
+    --bkd-party-color       : #08ff10;
+    --jkp-party-color       : #FF9933;
+    --jdl-party-color       : YELLOW;
+    --sbsp-party-color      : #f5d50a;
+    --nishad-party-color    : #BA0005;
+
+
+    /* Telangana State Party */
     --aimim-party-color     : #0c6b4b;
-    --ics-party-color       : #00FF00;
-    --jp-party-color        : #1F75FE;
-    --psp-party-color        : #F15270;
-    --sp-party-color :#FF2222;
+    --brs-party-color       : #F84996;
+    --tps-party-color       : #800000;
+    --pdf-party-color       : #E6452E;
+
+
+    /* Andhra Pradesh State Party */
+    --ysrcp-party-color     : #1569C7;
+    --tdp-party-color       : #FFED00;
+    --jsp-party-color       : #ca420f;
+
+
+    /* Assam State Party */
+    --asdc-party-color      : #ff0000;
+    --aiudf-party-color     : #348017;
+    --agp-party-color       : #2B3F7B;
+    --bpf-party-color       : #FF6600;
+    --uppl-party-color      : #FAED09;
+
+
+    /* Kerala State Party */
+    --cs-party-color        : #FF7F7F;
+    --iuml-party-color      : #006600;
+    --inl-party-color       : #006600;
+    --kmpp-party-color      : orange;
+    --ljd-party-color       : #2E8B57;
+    --rmpi-party-color      : #FF0000;
+    --nsc-party-color       : #EE0000;
+    --rspkl-party-color     : #FF4A4A;
+    --ufl-party-color       : #EE0000;
+    --kc-party-color        : #CC6600;
+    --kcb-party-color       : #CC6600;
+    --kcj-party-color       : #CC6600;
+    --kcm-party-color       : #F48385;
+    --jkc-party-color       : #FF0000;
+    --nck-party-color       : #00B2B2;
+    --dck-party-color       : #00B2B2;
+
+
+    /* Karnataka State Party */
+    --jds-party-color       : Green;
+    --kjp-party-color       : #65CB9B;
+
+    /* Haryana State Party */
+    --jjp-party-color       : #026D37;
+    --ld-party-color        : #00FF66;
+    --hjc-party-color       : #FFFF00;
+    --inld-party-color      : #336600;
+    --hvp-party-color       : #CC00CC;
+    --jps-party-color       : #06038D;
+    --hlp-party-color       : #C4702A;
+
+    /* Odisha State Party */
+    --bjd-party-color       : #70A548;
+    --gp-party-color        : #FF33CC;
+    --sjpr-party-color      : #74C365;
+    --uc-party-color        : #FCEE23;
+
+
+    /* Jharkhand State Party */
+    --jpjh-party-color      : GREEN;
+    --jmm-party-color       : #337316;
+    --jvm-party-color       : #EDFB06;
+    --ajsu-party-color      : #6827B5;
+    --mcc-party-color       : #cc0d0d;
+
+
+    /* Tamil Nadu State Party */
+    --pmk-party-color       : #FFFF00;
+    --dmk-party-color       : #FF0D0D;
+    --aiadmk-party-color    : #009546;
+    --vck-party-color       : #1E90FF;
+    --tmctn-party-color     : #ff8d33;
+    --mdmk-party-color      : #FC0000;
+    --mmk-party-color       : LIME;
+    --tntp-party-color      : TOMATO;
+
+
+    /* Tripura State Party */
+    --tmp-party-color       : #FFDD00;
+    --ipft-party-color      : #07892f;
+
+
+    /* Meghalaya State Party */
+    --aphlc-party-color     : YELLOW;
+    --npp-party-color       : #FFCA61;
+    --hspsp-party-color     : #0602AF;
+
+
+    /* Mizoram State Party */
+    --mu-party-color        : #FFFF00;
+    --mnf-party-color       : #2E5694;
+
+
+    /* Nagaland State Party */
+    --ndpp-party-color      : #ED1B24;
+    --npf-party-color       : #1717CC;
+    --npc-party-color       : #1717CC;
+    --udf-party-color       : MAROON;
+    --ufn-party-color       : MAROON;
+    --nno-party-color       : #FFFF00;
+
+
+    /* Sikkim State Party */
+    --skm-party-color       : #ED1E26;
+    --sdf-party-color       : #FBEC5D;
+    --sspsk-party-color     : #663300;
+    --sjp-party-color       : #5bb30e;
+
+
+    /* Karnataka State Party */
+    --ls-party-color        : #336600;
+    --lss-party-color       : #00FF00;
+    --krpp-party-color      : #0000FF;
+    --skp-party-color       : #FFFF00;
+
+
+    /* Bihar State Party */
+    --jdu-party-color       : #003366;
+    --rjd-party-color       : #056D05;
+    --ipf-party-color       : #E40017;
+    --rlsp-party-color      : #999966;
+    --samata-party-color    : #F26F21;
+    --sjp-bh-party-color    : #00FF00;
+    --ljp-party-color       : #0093DD;
+    --ham-party-color       : #F5D62A;
+
+
+    /* Madhya Pradesh State Party */
+    --rpik-party-color      : DARKBLUE;
+    --bld-party-color       : #0000FF;
+    --aiict-party-color     : #00FFFF;
+    --bap-party-color       : #FF0000;
+
+
+    /* Union Territory Party */
+    --bnp-party-color       : #FFCC66;
+    --aap-party-color       : #0072B0;
+    --jknc-party-color      : #FE0000;
+    --jkpdp-party-color     : #058532;
+    --ainrc-party-color     : #FDA209;
+
+
+    /* Goa State Party  */
+    --mgp-party-color       : #AF7050;
+    --rgp-party-color       : #E3C773;
+    --ugp-party-color       : #CA8642;
+    --ugdp-party-color      : #5bb30e;
+    --gfp-party-color       : #353982;
+
+    /* Himachal Pradesh State Party */
+    --hvc-party-color       : #CE8186;
+
+
+    /* Arunachal Pradesh State Party */
+    --ac-party-color        : #CCCCFF;
+
+
+    /* West Bengal State Party */
+    --tmc-party-color       : #20C646;
+    --rspwb-party-color     : #d84c4c;
+    --bgpm-party-color      : #FFEF03;
+    --gnlf-party-color      : #347C17;
+    --bc-party-color        : BLUE;
+    --isf-party-color       : #0204EF;
+    --mfb-party-color       : RED;
+
+
+    /* Manipur State Party */
+    --mpp-party-color       : #99CC99;
+    --mscp-party-color      : #99CC99;
+
+
+    /* Chhattisgarh State Party */
+    --rrp-party-color       : #330033;
+    --ggp-party-color       : PURPLE;
+
+
+    /* Punjab State Party */
+    --sad-party-color       : #0F204A;
+    --sada-party-color      : #FFCF00;
+    --ad-party-color        : #0F204A;
+    --adsg-party-color      : #0F204A;
+    --adsfs-party-color     : #cb0922;
+
+
+    /* Rajasthan State Party */
+    --rlp-party-color       : #FFD42A;
 }
 
 
-/* additional styling  */
+
+
+/* Additional Styling  */
+/* National Party */
 .party-color-ind{
     background-color: var(--ind-party-color);
 }
@@ -28,16 +264,98 @@
     background-color: var(--bjp-party-color);
 }
 
+.party-color-bjs{
+    background-color: var(--bjs-party-color);
+}
+
+/* Hindu Mahasabha */
+.party-color-hm{
+    background-color: var(--hm-party-color);
+}
+
 .party-color-inc{
     background-color: var(--inc-party-color);
 }
 
-.party-color-ncp{
-    background-color: var(--ncp-party-color);
+.party-color-inci{
+    background-color: var(--inci-party-color);
+}
+
+.party-color-incj{
+    background-color: var(--incj-party-color);
+}
+
+.party-color-inco{
+    background-color: var(--inco-party-color);
+}
+
+.party-color-icsscs{
+    background-color: var(--icsscs-party-color);
+}
+
+.party-color-ics{
+    background-color: var(--ics-party-color);
+}
+
+.party-color-incu{
+    background-color: var(--incu-party-color);
 }
 
 .party-color-jd{
     background-color: var(--jd-party-color);
+}
+
+.party-color-jp{
+    background-color: var(--jp-party-color);
+}
+
+.party-color-js{
+    background-color: var(--js-party-color);
+}
+
+.party-color-cpi{
+    background-color: var(--cpi-party-color);
+}
+
+.party-color-cpim{
+    background-color: var(--cpim-party-color);
+}
+
+/* Communist Party of India (Marxist-Leninist) Liberation */
+.party-color-cpiml{
+    background-color: var(--cpiml-party-color);
+}
+
+/* Socialist Unity Centre of India */
+.party-color-suci{
+    background-color: var(--suci-party-color);
+}
+
+/* Samyukta Socialist Party */
+.party-color-ssp{
+    background-color: var(--ssp-party-color);
+}
+
+/* All India Forward Bloc */
+.party-color-aifb{
+    background-color: var(--aifb-party-color);
+}
+
+/* Swatantra Party */
+.party-color-swatantra{
+    background-color: var(--swatantra-party-color);
+}
+
+/* Socialist Party */
+.party-color-socialist{
+    background-color: var(--socialist-party-color);
+}
+
+
+
+/* Maharashtra State Party */
+.party-color-ncp{
+    background-color: var(--ncp-party-color);
 }
 
 .party-color-ss{
@@ -56,30 +374,748 @@
     background-color: var(--rpi-party-color);
 }
 
+/* Prahar Janshakti Party */
 .party-color-pjp{
     background-color: var(--pjp-party-color);
-}
-
-.party-color-cpi{
-    background-color: var(--cpi-party-color);
-}
-
-.party-color-aimim{
-    background-color: var(--aimim-party-color);
-}
-
-.party-color-ics{
-    background-color: var(--ics-party-color);
-}
-
-.party-color-jp{
-    background-color: var(--jp-party-color);
 }
 
 .party-color-psp{
     background-color: var(--psp-party-color);
 }
 
+/* Jan Surajya Shakti */
+.party-color-jss{
+    background-color: var(--jss-party-color);
+}
+
+/* Swabhimani Paksha */
+.party-color-swp{
+    background-color: var(--swp-party-color);
+}
+
+/* Peasants and Workers Party of India */
+.party-color-pwp{
+    background-color: var(--pwp-party-color);
+}
+
+.party-color-mns{
+    background-color: var(--mns-party-color);
+}
+
+/* Scheduled Castes Federation */
+.party-color-scf{
+    background-color: var(--scf-party-color);
+}
+
+/* Swabhimani Paksha */
+.party-color-swp{
+    background-color: var(--swp-party-color);
+}
+
+/* Rashtriya Samaj Paksha */
+.party-color-rsp{
+    background-color: var(--rsp-party-color);
+}
+
+/* Bahujan Vikas Aghadi */
+.party-color-bva{
+    background-color: var(--bva-party-color);
+}
+
+
+
+/* Uttar Pradesh State Party */
+/* Samajwadi Party */
 .party-color-sp{
     background-color: var(--sp-party-color);
+}
+
+/* Bahujan Samaj Party */
+.party-color-bsp{
+    background-color: var(--bsp-party-color);
+}
+
+/* Rashtriya Lok Dal */
+.party-color-rld{
+    background-color: var(--rld-party-color);
+}
+
+/* Akhil Bharatiya Loktantrik Congress */
+.party-color-ablc{
+    background-color: var(--ablc-party-color);
+}
+
+/* Apna Dal (Sonelal) */
+.party-color-ads{
+    background-color: var(--ads-party-color);
+}
+
+/* Apna Dal (Kamerawadi) */
+.party-color-adk{
+    background-color: var(--adk-party-color);
+}
+
+/* Bharatiya Kranti Dal */
+.party-color-bkd{
+    background-color: var(--bkd-party-color);
+}
+
+/* Jan Kranti Party */
+.party-color-jkp{
+    background-color: var(--jkp-party-color);
+}
+
+/* Jansatta Dal (Loktantrik) */
+.party-color-jdl{
+    background-color: var(--jdl-party-color);
+}
+
+/* Suheldev Bharatiya Samaj Party */
+.party-color-sbsp{
+    background-color: var(--sbsp-party-color);
+}
+
+/* Nirbal Indian Shoshit Hamara Aam Dal */
+.party-color-nishad{
+    background-color: var(--nishad-party-color);
+}
+
+
+
+/* Telangana State Party */
+.party-color-aimim{
+    background-color: var(--aimim-party-color);
+}
+
+/* Bharat Rashtra Samithi */
+.party-color-brs{
+    background-color: var(--brs-party-color);
+}
+
+/* Telangana Praja Samithi */
+.party-color-tps{
+    background-color: var(--tps-party-color);
+}
+
+/* People's Democratic Front */
+.party-color-pdf{
+    background-color: var(--pdf-party-color);
+}
+
+
+/* Andhra Pradesh State Party */
+/* Yuvajana Sramika Rythu Congress Party */
+.party-color-ysrcp{
+    background-color: var(--ysrcp-party-color);
+}
+
+/* Telugu Desam Party */
+.party-color-tdp{
+    background-color: var(--tdp-party-color);
+}
+
+/* Jana Sena Party */
+.party-color-jsp{
+    background-color: var(--jsp-party-color);
+}
+
+
+/* Assam State Party */
+/* Autonomous State Demand Committee */
+.party-color-asdc{
+    background-color: var(--asdc-party-color);
+}
+
+/* All India United Democratic Front */
+.party-color-aiudf{
+    background-color: var(--aiudf-party-color);
+}
+
+/* Asom Gana Parishad */
+.party-color-agp{
+    background-color: var(--agp-party-color);
+}
+
+/* Bodoland People's Front */
+.party-color-bpf{
+    background-color: var(--bpf-party-color);
+}
+
+
+/* United People's Party Liberal  */
+.party-color-uppl{
+    background-color: var(--uppl-party-color);
+}
+
+
+/* Kerala State Party */
+/* Congress (Secular) */
+.party-color-cs{
+    background-color: var(--cs-party-color);
+}
+
+/* Indian Union Muslim League */
+.party-color-iuml{
+    background-color: var(--iuml-party-color);
+}
+
+/* Indian National League */
+.party-color-inl{
+    background-color: var(--inl-party-color);
+}
+
+/* Kisan Mazdoor Praja Party */
+.party-color-kmpp{
+    background-color: var(--kmpp-party-color);
+}
+
+/* Loktantrik Janata Dal */
+.party-color-ljd{
+    background-color: var(--ljd-party-color);
+}
+
+/* Revolutionary Marxist Party of India */
+.party-color-rmpi{
+    background-color: var(--rmpi-party-color);
+}
+
+/* National Secular Conference */
+.party-color-nsc{
+    background-color: var(--nsc-party-color);
+}
+
+
+
+/* Karnataka State Party */
+.party-color-jds{
+    background-color: var(--jds-party-color);
+}
+
+.party-color-kjp{
+    background-color: var(--kjp-party-color);
+}
+
+
+
+
+/* Kerala State Party */
+/* Revolutionary Socialist Party */
+.party-color-rsp-kl{
+    background-color: var(--rspkl-party-color);
+}
+
+/* United Front of Leftists */
+.party-color-ufl{
+    background-color: var(--ufl-party-color);
+}
+
+/* Kerala Congress */
+.party-color-kc{
+    background-color: var(--kc-party-color);
+}
+
+/* Kerala Congress (Mani) */
+.party-color-kcm{
+    background-color: var(--kcm-party-color);
+}
+
+/* Kerala Congress (B) */
+.party-color-kcb{
+    background-color: var(--kcb-party-color);
+}
+
+/* Kerala Congress (Jacob) */
+.party-color-kcj{
+    background-color: var(--kcj-party-color);
+}
+
+/* Janadhipathya Kerala Congress */
+.party-color-jkc{
+    background-color: var(--jkc-party-color);
+}
+
+/* Nationalist Congress Kerala  || Democratic Congress Kerala */
+.party-color-nck{
+    background-color: var(--nck-party-color);
+}
+.party-color-dck{
+    background-color: var(--dck-party-color);
+}
+
+
+
+/* Haryana State Party */
+.party-color-jjp{
+    background-color: var(--jjp-party-color);
+}
+
+/* Lok Dal */
+.party-color-ld{
+    background-color: var(--ld-party-color);
+}
+
+/* Janata Party (Secular) */
+.party-color-jps{
+    background-color: var(--jps-party-color);
+}
+
+/* Haryana Vikas Party */
+.party-color-hvp{
+    background-color: var(--hvp-party-color);
+}
+
+/* Indian National Lok Dal */
+.party-color-inld{
+    background-color: var(--inld-party-color);
+}
+
+/* Haryana Janhit Congress */
+.party-color-hjc{
+    background-color: var(--hjc-party-color);
+}
+
+/* Haryana Lokhit Party */
+.party-color-hlp{
+    background-color: var(--hlp-party-color);
+}
+
+
+/* Odisha State Party */
+.party-color-bjd{
+    background-color: var(--bjd-party-color);
+}
+
+/* Ganatantra Parishad */
+.party-color-gp{
+    background-color: var(--gp-party-color);
+}
+
+/* Samajwadi Janata Party (Rashtriya) */
+.party-color-sjpr{
+    background-color: var(--sjpr-party-color);
+}
+
+/* Utkal Congress */
+.party-color-uc{
+    background-color: var(--uc-party-color);
+}
+
+/* Jharkhand State Party */
+/* Jharkhand Party */
+.party-color-jp-jh{
+    background-color: var(--jpjh-party-color);
+}
+
+/* Jharkhand Mukti Morcha */
+.party-color-jmm{
+    background-color: var(--jmm-party-color);
+}
+
+/* Jharkhand Vikas Morcha */
+.party-color-jvm{
+    background-color: var(--jvm-party-color);
+}
+
+/* All Jharkhand Students Union */
+.party-color-ajsu{
+    background-color: var(--ajsu-party-color);
+}
+
+/* Marxist Coordination Committee */
+.party-color-mcc{
+    background-color: var(--mcc-party-color);
+}
+
+
+/* Tamil Nadu State Party */
+/* Pattali Makkal Katchi */
+.party-color-pmk{
+    background-color: var(--pmk-party-color);
+}
+
+/* Dravida Munnetra Kazhagam */
+.party-color-dmk{
+    background-color: var(--dmk-party-color);
+}
+
+/* All India Anna Dravida Munnetra Kazhagam */
+.party-color-aiadmk{
+    background-color: var(--aiadmk-party-color);
+}
+
+/* Viduthalai Chiruthaigal Katchi */
+.party-color-vck{
+    background-color: var(--vck-party-color);
+}
+
+/* Tamil Maanila Congress */
+.party-color-tmc-tn{
+    background-color: var(--tmctn-party-color);
+}
+
+/* Marumalarchi Dravida Munnetra Kazhagam */
+.party-color-mdmk{
+    background-color: var(--mdmk-party-color);
+}
+
+/* Manithaneya Makkal Katchi */
+.party-color-mmk{
+    background-color: var(--mmk-party-color);
+}
+
+/* Tamil Nadu Toilers Party */
+.party-color-tntp{
+    background-color: var(--tntp-party-color);
+}
+
+
+/* Union Territory Party */
+/* Bharatiya Navshakti Party */
+.party-color-bnp{
+    background-color: var(--bnp-party-color);
+}
+
+/* Aam Aadmi Party */
+.party-color-aap{
+    background-color: var(--aap-party-color);
+}
+
+/* Jammu & Kashmir National Conference */
+.party-color-jknc{
+    background-color: var(--jknc-party-color);
+}
+
+/* Jammu & Kashmir People's Democratic Party */
+.party-color-jkpdp{
+    background-color: var(--jkpdp-party-color);
+}
+
+/* All India N.R. Congress */
+.party-color-ainrc{
+    background-color: var(--ainrc-party-color);
+}
+
+
+
+/* Tripura State Party */
+/* Tipra Motha Party */
+.party-color-tmp{
+    background-color: var(--tmp-party-color);
+}
+
+/* Indigenous People's Front of Tripura */
+.party-color-ipft{
+    background-color: var(--ipft-party-color);
+}
+
+
+
+/* Meghalaya State Party */
+/* All Party Hill Leaders Conference */
+.party-color-aphlc{
+    background-color: var(--aphlc-party-color);
+}
+
+/* National People's Party */
+.party-color-npp{
+    background-color: var(--npp-party-color);
+}
+
+/* Hill State People's Democratic Party */
+.party-color-hspdp{
+    background-color: var(--hspsp-party-color);
+}
+
+
+
+/* Mizoram State Party */
+/* Mizo Union */
+.party-color-mu{
+    background-color: var(--mu-party-color);
+}
+
+/* Mizo National Front */
+.party-color-mnf{
+    background-color: var(--mnf-party-color);
+}
+
+
+
+/* Nagaland State Party */
+/* Nationalist Democratic Progressive Party */
+.party-color-ndpp{
+    background-color: var(--ndpp-party-color);
+}
+
+/* Nagaland People's Front */
+.party-color-npf{
+    background-color: var(--npf-party-color);
+}
+
+/* Nagaland People's Council */
+.party-color-npc{
+    background-color: var(--npc-party-color);
+}
+
+/* United Democratic Front */
+.party-color-udf{
+    background-color: var(--udf-party-color);
+}
+
+/* United Front of Nagaland */
+.party-color-ufn{
+    background-color: var(--ufn-party-color);
+}
+
+/* Nagaland Nationalist Organisation */
+.party-color-nno{
+    background-color: var(--nno-party-color);
+}
+
+
+
+/* Sikkim State Party */
+/* Sikkim Krantikari Morcha */
+.party-color-skm{
+    background-color: var(--skm-party-color);
+}
+
+/* Sikkim Democratic Front */
+.party-color-sdf{
+    background-color: var(--sdf-party-color);
+}
+
+/* Sikkim Sangram Parishad */
+.party-color-ssp-sk{
+    background-color: var(--sspsk-party-color);
+}
+
+/* Sikkim Janata Parishad */
+.party-color-sjp{
+    background-color: var(--sjp-party-color);
+}
+
+
+
+/* West Bengal State Party */
+.party-color-tmc{
+    background-color: var(--tmc-party-color);
+}
+
+/* Revolutionary Socialist Party */
+.party-color-rsp-wb{
+    background-color: var(--rspwb-party-color);
+}
+
+/* Bharatiya Gorkha Prajatantrik Morcha */
+.party-color-bgpm{
+    background-color: var(--bgpm-party-color);
+}
+
+/* Gorkha National Liberation Front */
+.party-color-gnlf{
+    background-color: var(--gnlf-party-color);
+}
+
+/* Bangla Congress */
+.party-color-bc{
+    background-color: var(--bc-party-color);
+}
+
+/* Indian Secular Front */
+.party-color-isf{
+    background-color: var(--isf-party-color);
+}
+
+
+/* Marxist Forward Bloc */
+.party-color-mfb{
+    background-color: var(--mfb-party-color);
+}
+
+
+
+/* Karnataka State Party */
+/* Lok Shakti */
+.party-color-ls{
+    background-color: var(--ls-party-color);
+}
+
+/* Lok Sewak Sangh */
+.party-color-lss{
+    background-color: var(--lss-party-color);
+}
+
+/* Kalyana Rajya Pragathi Paksha */
+.party-color-krpp{
+    background-color: var(--krpp-party-color);
+}
+
+/* Sarvodaya Karnataka Paksha */
+.party-color-skp{
+    background-color: var(--skp-party-color);
+}
+
+
+
+/* Bihar State Party */
+/* Janata Dal (United) */
+.party-color-jdu{
+    background-color: var(--jdu-party-color);
+}
+
+/* Rashtriya Janata Dal */
+.party-color-rjd{
+    background-color: var(--rjd-party-color);
+}
+
+/* Indian People's Front */
+.party-color-ipf{
+    background-color: var(--ipf-party-color);
+}
+
+/* Rashtriya Lok Samata Party */
+.party-color-rlsp{
+    background-color: var(--rlsp-party-color);
+}
+
+/* Samata Party */
+.party-color-samata{
+    background-color: var(--samata-party-color);
+}
+
+/* Samajwadi Janata Party */
+.party-color-sjp-bh{
+    background-color: var(--sjp-bh-party-color);
+}
+
+/* Lok Janshakti Party */
+.party-color-ljp{
+    background-color: var(--ljp-party-color);
+}
+
+/* Hindustani Awam Morcha */
+.party-color-ham{
+    background-color: var(--ham-party-color);
+}
+
+
+
+/* Madhya Pradesh State Party */
+/*  Republican Party of India (Khobragade) */
+.party-color-rpik{
+    background-color: var(--rpik-party-color);
+}
+
+/* Bharatiya Lok Dal */
+.party-color-bld{
+    background-color: var(--bld-party-color);
+}
+
+/* All India Indira Congress (T) */
+.party-color-aiict{
+    background-color: var(--aiict-party-color);
+}
+
+/* Bharat Adivasi Party */
+.party-color-bap{
+    background-color: var(--bap-party-color);
+}
+
+
+/* Goa State Party */
+/* Maharashtrawadi Gomantak Party */
+.party-color-mgp{
+    background-color: var(--mgp-party-color);
+}
+
+/* Revolutionary Goans Party */
+.party-color-rgp{
+    background-color: var(--rgp-party-color);
+}
+
+/* United Goans Party */
+.party-color-ugp{
+    background-color: var(--ugp-party-color);
+}
+
+
+/* United Goans Democratic Party */
+.party-color-ugdp{
+    background-color: var(--ugdp-party-color);
+}
+
+/*  */
+.party-color-gfp{
+    background-color: var(--gfp-party-color);
+}
+
+
+/* Himachal Pradesh State Party */
+.party-color-hvc{
+    background-color: var(--hvc-party-color);
+}
+
+
+/* Arunachal Pradesh State Party */
+/* Arunachal Congress */
+.party-color-ac{
+    background-color: var(--ac-party-color);
+}
+
+
+/* Manipur State Party */
+/* Manipur People's Party */
+.party-color-mpp{
+    background-color: var(--mpp-party-color);
+}
+
+/* Manipur State Congress Party */
+.party-color-mscp{
+    background-color: var(--mscp-party-color);
+}
+
+
+/* Chhattisgarh State Party */
+.party-color-rrp{
+    background-color: var(--rrp-party-color);
+}
+
+/* Gondwana Gantantra Party */
+.party-color-ggp{
+    background-color: var(--ggp-party-color);
+}
+
+
+
+/* Punjab State Party */
+/* Shiromani Akali Dal */
+.party-color-sad{
+    background-color: var(--sad-party-color);
+}
+
+/* Shiromani Akali Dal (Amritsar) */
+.party-color-sada{
+    background-color: var(--sada-party-color);
+}
+
+/* Akali Dal */
+.party-color-ad{
+    background-color: var(--ad-party-color);
+}
+
+/* Akali Dal (Sant Group) */
+.party-color-adsg{
+    background-color: var(--adsg-party-color);
+}
+/* Akali Dal (Sant Fateh Singh) */
+.party-color-adsfs{
+    background-color: var(--adsfs-party-color);
+}
+
+
+
+/* Rajasthan State Party */
+.party-color-rlp{
+    background-color: var(--rlp-party-color);
 }
